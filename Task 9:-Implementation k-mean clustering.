@@ -1,0 +1,21 @@
+Clustering: Clustering is the method of dividing a set of abstract objects into groups. Points to Keep in Mind A set of data objects can be viewed as a single entity. When performing cluster analysis, we divide the data set into groups based on data similarity, then assign labels to the groups.
+
+Simple-k means clustering: K-means clustering is a simple unsupervised learning algorithm. In this, the data objects (‘n’) are grouped into a total of ‘k’ clusters, with each observation belonging to the cluster with the closest mean. It defines ‘k’ sets, one for each cluster k n (the point can be thought of as the center of a one or two-dimensional figure). The clusters are separated by a large distance.
+The data is then organized into acceptable data sets and linked to the nearest collection. If no data is pending, the first stage is more difficult to complete; in this case, an early grouping is performed. The ‘k’ new set must be recalculated as the  centers of the clusters from the previous stage.
+The same data set points and the nearest new sets are bound together after these ‘k’ new sets have been created. After that, a loop is created. The ‘k’ sets change their position step by step until no further changes are made due to this loop.
+
+Steps to be followed:
+Step 1: In the preprocessing interface, open the Weka Explorer and load the required dataset, and we are taking the iris.arff dataset.
+
+
+Step 2: Find the ‘cluster’ tab in the explorer and press the choose button to execute clustering. A dropdown list of available clustering algorithms appears as a result of this step and selects the simple-k means algorithm.
+Step 3: Then, to the right of the choose icon, press the text button to bring up the popup window shown in the screenshots. We enter three for the number of clusters in this window and leave the seed value alone. The seed value is used to generate a random number that is used to make internal assignments of instances of clusters.
+
+
+Step 4: One of the choices has been chosen. We must ensure that they are in the ‘cluster mode’ panel before running the clustering algorithm. The choice to use a training set is selected, and then the ‘start’ button is pressed. The screenshots below display the process and the resulting window.
+
+Step 5: The centroid of each cluster is shown in the result window, along with statistics on the number and percent of instances allocated to each cluster. Each cluster centroid is represented by a mean vector. This cluster can be used to describe a cluster.
+
+Step 6: Another way to grasp the characteristics of each cluster is to visualize them. To do so, right-click the result set on the result. Selecting to visualize cluster assignments from the list column.
+
+
