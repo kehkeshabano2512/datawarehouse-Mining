@@ -1,0 +1,59 @@
+Data Visualization Using WEKA Explorer:-Data Visualization using WEKA is done on the IRIS.arff dataset.
+
+The steps involved are as follows:
+1) Go to the Preprocess tab and open IRIS.arff dataset.
+
+2) The dataset has 4 attributes and 1 class label. The attributes in this dataset are:
+
+Sepallength : Type -numeric
+Sepalwidth: Type- numeric
+Petalength: Type-numeric
+Petalwidth: Type-numeric
+Class: Type-nominal
+
+
+
+
+
+3) To visualize the dataset, go to the Visualize tab. The tab shows the attributes plot matrix. The dataset attributes are marked on the x-axis and y-axis while the instances are plotted. The box with the x-axis attribute and y-axis attribute can be enlarged.
+
+4) Click on the box of the plot to enlarge. For example, x: petal length and y:petalwidth. The class labels are represented in different colors.
+Class label- Iris-setosa: blue color
+Class label- Iris-versicolor: red
+Class label-Iris-virginica-green
+These colors can be changed. To change the color, click on the class label at the bottom, and a color window will appear.
+
+
+
+
+5) Click on the instance represented by ‘x’ in the plot. It will give the instance details. For example:
+Instance number: 91
+Sepalength: 5.5
+Sepalwidth: 2.6
+Petalength: 4.4
+Petalwidth: 1.2
+Class: Iris-versicolor
+Some of the points in the plot appear darker than other points. These points represent 2 or more instances with the same class label and the same value of attributes plotted on the graph such as petalwidth and petallength.
+
+
+
+
+
+6) The X and Y-axis attributes can be changed from the right panel in Visualize graph. The user can view different plots.
+
+7) The Jitter is used to add randomness to the plot. Sometimes the points overlap. With jitter, the darker spots represent multiple instances.
+
+
+8) To get a clearer view of the dataset and remove outliers, the user can select an instance from the dropdown. Click on the “select instance” dropdown. Choose “Rectangle”. With this, the user will be able to select points in the plot by plotting a rectangle.
+
+
+
+9) Click on “Submit”. Only the selected dataset points will be displayed and the other points will be excluded from the graph.
+
+The figure below shows the points from the selected rectangular shape. The plot represents points with only 3 class labels. The user can click on “Save” to save the dataset or “Reset” to select another instance. The dataset will be saved separately.ARFF file.
+
+
+
+Output:
+Data visualization using WEKA is simplified with the help of the box plot. The user can view any level of granularity. The attributes are plotted on X-axis and y-axis while the instances are plotted against the X and Y-axis. Some points represent multiple instances which are represented by points with dark colors.
+
