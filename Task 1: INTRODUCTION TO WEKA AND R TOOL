@@ -1,0 +1,83 @@
+INTRODUCTION TO DATA WAREHOUSE:- 
+
+Data warehousing is the process of collecting  ,organizing and managing data from different data sources to provide meaningful business insights and forecasts to respective users.
+•Integrates data and information collected from various sources into one comprehensive database.
+•This concept was introduced in 1980’s by Paul Murphy and Barry Devlin.
+•American computer scientist Bill Inmon is considered as the ‘father’ of the data warehouse due to his authorship of several works.
+•The Data Warehouse environment contains an extraction, transportation, and loading (ETL) solution, an online analytical processing (OLAP) engine, customer analysis tools, and other applications that handle the process of gathering information and delivering it to business users.
+•A Data Warehouse provides integrated, enterprise-wide, historical data and focuses on providing support for decision-makers for data modeling and analysis.
+
+INTRODUCTION OF WEKA:-
+
+Weka stands for Waikato Environment for Knowledge Analysis, it is software that is used in the data science field for data mining. It is free software. It is written in Java hence it can be run on any system supporting Java, so Weka can be run on different operating systems like Windows, Linux, Mac, etc. Weka provides a collection of visualization tools that can be used for data analysis, cleaning, and predictive modeling. Weka can perform a number of tasks like data preprocessing, clustering, classification, regression, visualization, and feature selection. 
+
+Features of WEKA:-
+
+ 1.Preprocess
+The preprocessing of data is a crucial task in data mining. Because most of the data is raw, there are chances that it may contain empty or duplicate values, have garbage values, outliers, extra columns, or have a different naming convention. All these things degrade the results.
+To make data cleaner, better and comprehensive, WEKA comes up with a comprehensive set of options under the filter category. Here, the tool provides both supervised and unsupervised types of operations. Here is the list of some operations for preprocessing:
+oReplaceMissingWithUserConstant: to fix empty or null value issues.
+oReservoirSample: to generate a random subset of sample data.
+oNominalToBinary: to convert the data from nominal to binary.
+oRemovePercentage: to remove a given percentage of data.
+oRemoveRange: to remove a given range of data.
+2. Classify
+Classification is one of the essential functions in machine learning, where we assign classes or categories to items. The classic examples of classification are: declaring a brain tumour as "malignant" or "benign" or assigning an email to a "spam" or "not_spam" class.
+After selecting the desired classifier, we select test options for the training set. Some of the options are:
+oUse training set: the classifier will be tested on the same training set.
+oA supplied test set: evaluates the classifier based on a separate test set.
+oCross-validation Folds: assessment of the classifier based on cross-validation using the number of provided folds.
+oPercentage split: the classifier will be judged on a specific percentage of data.
+3. Cluster
+In clustering, a dataset is arranged in different groups/clusters based on some similarities. In this case, the items within the same cluster are identical but different from other clusters. Examples of clustering include identifying customers with similar behaviours and organizing the regions according to homogenous land use.
+4. Associate
+Association rules highlight all the associations and correlations between items of a dataset. In short, it is an if-then statement that depicts the probability of relationships between data items. A classic example of association refers to a connection between the sale of milk and bread.
+The tool provides Apriori, FilteredAssociator, and FPGrowth algorithms for association rules mining in this category.
+5. Select Attributes
+Every dataset contains a lot of attributes, but several of them may not be significantly valuable. Therefore, removing the unnecessary and keeping the relevant details are very important for building a good model.
+Many attribute evaluators and search methods include BestFirst, GreedyStepwise, and Ranker.
+6. Visualize
+In the visualize tab, different plot matrices and graphs are available to show the trends and errors identified by the model.
+ Introduction to R tool
+
+R is a statistical computing and graphics system. This system consists of two parts: the R language itself (which is what most people mean when they talk about R) and a run-time environment.
+R is an interpreted language, which means that users access its functions through a command-line interpreter. 
+Unlike languages such as Python and Java, R is not a general-purpose programming language. Instead, it’s considered a domain-specific language (DSL), meaning its functions and use are designed for a specific area of use or domain. 
+In R’s case, that’s statistical computing and analysis. By extension, R is commonly used for all manner of data science tasks.
+R is equipped with a large set of functions that enable data visualizations, so users can analyze data, model it as required, and then create graphics. In addition to the language’s in-built graphical functions, there are numerous add-ons or modules that facilitate this.
+
+ Special features of R Tools
+
+Following are some of the special features of R Tools:-
+
+R is available for Windows, Linux, and MacOS platforms
+
+R lets you input data from SAS, Excel, SPSS, STATA, and others.
+
+R is an excellent tool for creating complicated plots and charts which will be of great quality.
+
+R lets you display statistical concepts by means of animations.
+
+R can be embedded in Excel. This will provide you with a whole new range of statistics and graphical properties.
+
+R has very good community support, which gives answers to all your queries. Most of the responses come from experts in the data analysis field. The community gives you a detailed insight into the R language for newbies.
+
+R provides data analytics solutions on the web by embedding R on a server through the Apache server.
+
+R has a lot of packages that are written for a specific purpose. All the packages are contained in CRAN, and the packages are divided based on their target domain.
+
+R contains codes to perform all the basic and advanced statistics.
+
+R has Revolution Computing which is an enterprise R provider.
+ 
+R has a blog for them that discusses the latest developments, usages of R in various fields, and various other matters which are related to R.
+
+Applications of Weka
+
+Weka is widely used in various domains for data mining and machine learning tasks. Some common applications include:
+Educational Purposes: Weka is extensively used in academia for teaching data mining and machine learning concepts due to its user-friendly interface and comprehensive set of tools.
+Research: Researchers utilize Weka to experiment with new algorithms and techniques in data analysis and predictive modeling.
+Industry: Businesses use Weka for customer segmentation, market analysis, and predictive analytics to make data-driven decisions.
+
+
+
