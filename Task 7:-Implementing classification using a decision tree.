@@ -1,0 +1,43 @@
+Decision Tree Introduction:-
+A Decision Tree is a categorization approach made up of three parts: the root node, the branch (edge or link), and the leaf node. The root node contains the test condition for various attributes, the branch node represents all possible outcomes in the test, and the leaf nodes contain the label of the category to which it corresponds. The root node is located at the beginning of the tree, often known as the tree’s top. Classification and regression challenges can be helped by decision trees.
+Classification and Regression Trees are newer terms for decision trees (CART). They work by constructing a tree to analyze a piece of data, beginning at the root and progressing to the leaves (roots) until a forecast can be produced. The method of developing a decision tree involves greedily selecting the optimal split point to make predictions and then repeating the process until the tree reaches a fixed depth.
+
+ Following the construction of the tree, it is pruned to increase the model’s capacity to generalize to new data.
+
+Follow the steps below to load the dataset and perform classification in Weka:
+1) Open WEKA explorer.
+2) Select vote.arff file from the “Open file” under the preprocess tab option.
+
+
+
+
+3) Go to the “Classify” tab for classifying the unclassified data. Click on the “Choose” button. From this, select “trees -> J48”. Let us also have a quick look at other options in the Choose button:
+· Bayes: It is a density estimation for numerical attributes.
+· Meta: It is a multi-response linear regression.
+· Functions: It is logistic regression.
+· Lazy: It sets the blend entropy automatically.
+· Rule: It is a rule learner.
+· Trees: Trees classify the data.
+
+
+
+4) Click on the Start Button. The classifier output will be seen on the right-hand panel. It shows the run information in the panel as:
+· Scheme: The classification algorithm used.
+· Instances: Number of data rows in the dataset.
+· Attributes: The dataset has 5 attributes.
+· The number of leaves and the size of the tree describe the decision tree.
+· Time is taken to build the model: Time for the output.
+Full classification of the J48 pruned with the attributes and number of instances.
+
+5) To visualize the tree, right-click on the result and select visualize the tree.
+
+The Corresponding Visualization Tree is as below:
+
+
+
+Explanation Of Output Tree
+
+The output is in the form of a decision tree. The main attribute is “physician-fee-freeze”.
+If the physician-fee-freeze is y, then the tree further analyzes the synfuels-corporation-back. If it is y then it analyzes the MX-missile. If it is y then the class is Democrat or if it is n further analysis is performed on adoption-of-the-budget-resolution. If it is y then water-cost-sharing is analyzed and if it is y then the class label is Democratic and Republican otherwise.
+If the physician-fee-freeze is n, the class label is a democrat.
+
