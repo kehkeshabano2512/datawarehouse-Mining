@@ -1,0 +1,34 @@
+The Apriori algorithm is one such algorithm in ML that finds out the probable associations and creates association rules. WEKA provides the implementation of the Apriori algorithm. You can define the minimum support and an acceptable confidence level while computing these rules. You will apply the Apriori algorithm to the supermarket data provided in the WEKA installation.
+
+Loading Data
+
+In the WEKA explorer, open the Preprocess tab, click on the Open file ... button and select supermarket.arff database from the installation folder. After the data is loaded you will see the following screen −
+
+
+
+
+
+The database contains 4627 instances and 217 attributes. You can easily understand how difficult it would be to detect the association between such a large number of attributes. Fortunately, this task is automated with the help of Apriori algorithm.
+
+Associator
+
+Click on the Associate TAB and click on the Choose button. Select the Apriori association as shown in the screenshot −
+
+
+
+
+To set the parameters for the Apriori algorithm, click on its name, a window will pop up as shown below that allows you to set the parameters −
+
+
+
+After you set the parameters, click the Start button. After a while you will see the results as shown in the screenshot below −
+
+
+
+At the bottom, you will find the detected best rules of associations. This will help the supermarket in stocking their products in appropriate shelves.
+Conclusion for Apriori Algorithm Implementation in WEKA
+The implementation of the Apriori algorithm using WEKA provides a practical understanding of how association rule mining is applied to real-world datasets. Through this experiment, we successfully discovered frequent itemsets and generated meaningful association rules based on user-defined support and confidence thresholds. The graphical interface of WEKA simplifies the entire process, making it accessible even for beginners.
+This experiment demonstrated how patterns like product co-purchases or behavioral relationships can be extracted from categorical data. The resulting rules can support decision-making in areas such as market basket analysis, recommendation systems, and customer behavior prediction.
+Overall, the Apriori implementation in WEKA effectively bridges theoretical concepts of data mining with practical applications, enhancing our ability to analyze and interpret large datasets.
+
+
